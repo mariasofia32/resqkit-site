@@ -2,34 +2,34 @@ import Icon from './Icon.jsx'
 
 const FEATURES = [
   {
-    icon: 'explore',
-    title: 'Ghidare pas cu pas',
-    text: 'Instrucțiuni audio-video clare pentru orice situație, create împreună cu organizații medicale certificate.',
+    icon: 'collections_bookmark',
+    title: 'Bibliotecă de ghiduri de prim ajutor',
+    text: 'Căutare + listă organizată pe categorii, fiecare ghid marcat cu nivel de urgență.',
   },
   {
     icon: 'smart_toy',
-    title: 'Recomandare inteligentă',
-    text: 'Aplicația orientează spre protocolul potrivit, fără să pună diagnostice — doar direcție clară, rapid.',
+    title: 'Asistent AI conversațional',
+    text: 'Chat cu asistentul ResQKit AI — poate analiza o rană dintr-o poză.',
   },
   {
     icon: 'inventory_2',
-    title: 'Monitorizare consumabile',
-    text: 'Notificări automate pentru expirarea produselor sterile și starea generală a trusei.',
+    title: 'Ghidare de urgență interactivă, pas cu pas',
+    text: 'Un flux de tip arbore-decizional, cu taburi separate pentru Victimă / Materiale / Victime.',
   },
   {
-    icon: 'call',
-    title: 'Asistență și raport către 112',
-    text: 'Locație GPS, context și informații esențiale sunt trimise automat către dispecerat, la nevoie.',
+    icon: 'local_hospital',
+    title: 'Predare informații către echipajul medical',
+    text: 'La sosirea ambulanței, aplicația generează automat un rezumat al intervenției din sesiune.',
   },
   {
-    icon: 'wifi_off',
-    title: 'Funcționare offline',
-    text: 'Tutorialele și ghidajul pas cu pas rămân disponibile chiar și fără semnal sau internet.',
+    icon: 'model_training',
+    title: 'Mod de exersare (training)',
+    text: 'Permite antrenarea pe ghiduri într-un mediu sigur, fără o urgență reală.',
   },
   {
-    icon: 'autorenew',
-    title: 'Modul reutilizabil',
-    text: 'Un singur dispozitiv electronic, cu consumabile înlocuibile — nu arunci nimic la fiecare expirare.',
+    icon: 'motion_play',
+    title: 'Continuarea unei intervenții în desfășurare',
+    text: 'Dacă există o sesiune activă salvată pe dispozitiv, aplicația oferă direct opțiunea de a o relua din ecranul principal.',
   },
 ]
 
