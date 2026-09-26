@@ -1,4 +1,4 @@
-/* ============ Tokens (paleta ResQ Kit) ============ */
+
 :root {
   --navy-900: #0a1628;
   --navy-800: #0f2038;
@@ -85,7 +85,7 @@ img { max-width: 100%; display: block; }
   color: transparent;
 }
 
-/* ============ Buttons ============ */
+/*buttons*/
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
   padding: 12px 22px; border-radius: 100px; font-weight: 600; font-size: 14.5px;
@@ -100,7 +100,7 @@ img { max-width: 100%; display: block; }
 .btn--ghost:hover { border-color: var(--blue); }
 .btn--pill { padding: 9px 18px; font-size: 13.5px; background: var(--lime); color: #0a1628; }
 
-/* ============ Card base ============ */
+/*card*/
 .card {
   background: #fff;
   border: 1px solid var(--line);
@@ -117,7 +117,7 @@ img { max-width: 100%; display: block; }
 }
 .icon-badge--lg { width: 52px; height: 52px; font-size: 23px; }
 
-/* ============ Navbar ============ */
+/*navbar*/
 .nav { position: sticky; top: 0; z-index: 50; padding: 16px 32px; background: rgba(244,248,251,0.7); backdrop-filter: blur(10px); transition: box-shadow 0.3s ease, padding 0.3s ease; }
 .nav--scrolled { box-shadow: 0 4px 20px rgba(15,41,71,0.06); padding: 12px 32px; background: rgba(255,255,255,0.85); }
 .nav__inner { max-width: 1180px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
@@ -134,7 +134,7 @@ img { max-width: 100%; display: block; }
 .logo-mark { display: flex; align-items: center; gap: 10px; }
 .logo-img { width: auto; display: block; }
 
-/* ============ Hero ============ */
+/*hero*/
 .hero { position: relative; }
 .hero__bg {
   position: absolute; inset: 0; z-index: -1;
@@ -158,7 +158,7 @@ img { max-width: 100%; display: block; }
 }
 .feature-chip__icon { font-size: 20px; }
 
-/* ============ App screenshots (poze reale) ============ */
+/*app screens*/
 .app-screens { position: relative; width: min(478px, 78vw); }
 .app-screens__glow {
   position: absolute; inset: -30px;
@@ -193,7 +193,7 @@ img { max-width: 100%; display: block; }
 }
 .app-screens__dots button.is-active { background: var(--blue); transform: scale(1.3); }
 
-/* ============ Grids ============ */
+/*grids*/
 .grid { display: grid; gap: 20px; }
 .grid--4 { grid-template-columns: repeat(4, 1fr); margin-bottom: 44px; }
 .grid--3 { grid-template-columns: repeat(3, 1fr); }
@@ -223,7 +223,20 @@ img { max-width: 100%; display: block; }
 .dot--fill { background: var(--blue); }
 .dot--track { background: var(--bg-soft); border: 1px solid var(--line); }
 
-/* ============ Solution / steps ============ */
+.problem__source {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 11.5px;
+  color: var(--ink-400);
+}
+.problem__source a {
+  color: var(--ink-600);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.problem__source a:hover { color: var(--blue-dark); }
+
+/*salotion*/
 .solution__intro { text-align: center; margin-bottom: 48px; }
 .solution__intro .section-lead { margin: 16px auto 0; max-width: 620px; font-size: 16px; }
 .steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
@@ -237,11 +250,11 @@ img { max-width: 100%; display: block; }
 .solution__quote { margin-top: 40px; text-align: center; padding: 40px; }
 .solution__quote p { font-family: var(--font-display); font-size: clamp(19px, 2.4vw, 26px); font-weight: 600; color: var(--ink-900); }
 
-/* ============ Product ============ */
+/*product */
 .product__card h3 { font-size: 16.5px; margin-bottom: 6px; }
 .product__card p { font-size: 13.5px; }
 
-/* ============ Team ============ */
+/*team*/
 .team__subtitle { font-size: 12.5px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-400); text-align: center; margin: 44px 0 24px; }
 .team__subtitle:first-of-type { margin-top: 8px; }
 .grid--team { grid-template-columns: repeat(4, 1fr); }
@@ -264,7 +277,7 @@ img { max-width: 100%; display: block; }
 .person strong { font-size: 14.5px; }
 .person__role { font-size: 12px; color: var(--ink-400); }
 
-/* ============ Footer ============ */
+/*Footer*/
 .footer { max-width: 1180px; margin: 0 auto; padding: 0 32px 40px; }
 .footer__band {
   position: relative; overflow: hidden;
@@ -327,7 +340,7 @@ img { max-width: 100%; display: block; }
   display: block;
 }
 
-/*  Responsive */
+/*Responsive*/
 @media (max-width: 1020px) {
   .hero__inner { grid-template-columns: 1fr; }
   .hero__visual { order: -1; }

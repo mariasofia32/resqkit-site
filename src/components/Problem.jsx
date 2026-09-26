@@ -4,12 +4,12 @@ const CARDS = [
   {
     icon: 'schedule',
     title: 'Timpul contează',
-    text: 'Ajutorul nu ajunge întotdeauna imediat. Fiecare minut poate face diferența.',
+    text: 'Fiecare minut fără resuscitare scade șansele de supraviețuire cu aproximativ 10%.',
   },
   {
     icon: 'psychology',
     title: 'Panica blochează',
-    text: 'În situații critice, stresul face dificilă luarea deciziilor corecte.',
+    text: 'Peste jumătate dintre români recunosc că ar paraliza în fața unei situații critice.',
   },
   {
     icon: 'medical_services',
@@ -43,36 +43,48 @@ export default function Problem() {
         <div className="problem__stat-text">
           <span className="eyebrow">Ce arată datele?</span>
           <p>
-            Rezultatele chestionarului nostru arată diferența dintre ce cred oamenii că
-            știu și ce știu de fapt să facă atunci când sunt puși în situație.
+            Studiile naționale recente arată o diferență clară între cât de pregătiți
+            se cred românii să acorde primul ajutor și cât de pregătiți sunt de fapt
+            atunci când sunt puși în situație.
           </p>
         </div>
 
         <div className="problem__stat-numbers">
           <div>
-            <strong className="stat-blue">36%</strong>
-            <span>se consideră pregătiți să acorde primul ajutor</span>
+            <strong className="stat-blue">70.000</strong>
+            <span>de vieți pierdute anual în România din lipsa intervenției rapide</span>
           </div>
           <div>
-            <strong className="stat-blue">39%</strong>
-            <span>reușesc să acționeze corect într-o situație concretă</span>
+            <strong className="stat-blue">82%</strong>
+            <span>dintre români nu au cunoștințele necesare pentru a acorda corect primul ajutor</span>
           </div>
           <div>
-            <strong className="stat-blue">22%</strong>
-            <span>verifică periodic trusa medicală</span>
+            <strong className="stat-blue">18%</strong>
+            <span>au urmat vreodată un curs de prim ajutor</span>
           </div>
         </div>
 
         <div className="donut-wrap">
-          <div className="donut" style={{ '--pct': 34 }}>
-            <span>36%</span>
+          <div className="donut" style={{ '--pct': 82 }}>
+            <span>82%</span>
           </div>
           <div className="donut-legend">
-            <span><i className="dot dot--fill" /> Acționează corect</span>
-            <span><i className="dot dot--track" /> Se consideră pregătiți</span>
+            <span><i className="dot dot--fill" /> Nu se simt pregătiți</span>
+            <span><i className="dot dot--track" /> Au cunoștințele necesare</span>
           </div>
         </div>
       </div>
+
+      <p className="problem__source">
+        Surse:{' '}
+        <a href="https://www.antena3.ro/life/sanatate/studiu-romanii-vor-sa-acorde-primul-ajutor-dar-nu-stiu-cum-sa-se-descurce-in-situatii-de-urgenta-781936.html" target="_blank" rel="noopener noreferrer">
+          Antena3 CNN, barometrul „Viață pentru viață" (2026)
+        </a>{' '}
+        și{' '}
+        <a href="https://www.piatafinanciara.ro/studiu-groupama-82-dintre-romani-nu-stiu-sa-acorde-corect-primul-ajutor-chiar-daca-unul-din-cinci-marturisesc-ca-au-fost-martori-intr-o-situatie-de-urgenta/" target="_blank" rel="noopener noreferrer">
+          Piața Financiară, studiu Groupama (2026)
+        </a>
+      </p>
     </section>
   )
 }
