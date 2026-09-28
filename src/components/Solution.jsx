@@ -1,27 +1,27 @@
 const STEPS = [
   {
     n: '01',
-    title: 'Detectează impactul',
-    text: 'Senzorul de coliziune integrat identifică un impact semnificativ în timp real.',
+    title: 'Deschizi aplicația',
+    text: 'La o urgență, apeși pe ResQKit',
   },
   {
     n: '02',
-    title: 'Confirmă alerta',
-    text: 'Un interval de 10–20 secunde permite anularea alertei dacă totul este în regulă.',
+    title: 'Alegi situația',
+    text: 'Selectezi tipul de rană/urgență sau ceri ajutor de la Asistentul AI.',
   },
   {
     n: '03',
-    title: 'Ghidează pas cu pas',
+    title: 'Ghidaj pas cu pas',
     text: 'Aplicația recomandă instrucțiuni clare, adaptate situației, fără termeni medicali complicați.',
   },
   {
     n: '04',
-    title: 'Acționezi cu încredere',
+    title: 'Verifici ce materiale ai',
     text: 'Urmezi pașii afișați pe ecran, în ordine, până la finalizarea intervenției.',
   },
   {
     n: '05',
-    title: 'Se conectează la 112',
+    title: 'Predai informațiile echipajului medical',
     text: 'Locația, contextul și informațiile relevante sunt transmise automat către dispecerat.',
   },
 ]
