@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react'
 
-// Pune cele 5 poze reale din aplicație în: public/app-screens/
-// denumite exact screen-1.png ... screen-5.png
 const IMAGES = [
   '/app-screens/screen-1.png',
   '/app-screens/screen-2.png',
@@ -9,10 +7,10 @@ const IMAGES = [
   '/app-screens/screen-4.png',
   '/app-screens/screen-5.png',
   '/app-screens/screen-6.png',
-  '/app-screens/screen-7.png',
+  
 ]
 
-const INTERVAL_MS = 2800 // la cât timp se schimbă imaginea (2.8 secunde)
+const INTERVAL_MS = 2800 // la cât timp se schimbă imaginea 
 
 export default function AppScreens() {
   const [index, setIndex] = useState(0)
