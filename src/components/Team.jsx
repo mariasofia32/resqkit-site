@@ -1,11 +1,11 @@
 const MEMBERS = [
-  { name: 'Nossa Maria', role: 'Frontend developer & Marketing', initials: 'NM', photo: '/team/nossa-maria.jpg' },
-  { name: 'Bojan Maia', role: ' Social Media Manager & Marketing', initials: 'BM', photo: '/team/bojan-maia.jpg' },
-  { name: 'Gruber Alexandra', role: 'Frontend developer & Design Lead', initials: 'GA', photo: '/team/gruber-alexandra.jpg' },
-  { name: 'Voina Alexandru', role: 'Business Lead', initials: 'VA', photo: '/team/voina-alexandru.jpg' },
   { name: 'Vicașiu Vlad', role: ' Team Lead & Backend Developer', initials: 'VV', photo: '/team/vicasiu-vlad.jpg' },
-  { name: 'Petru-Man Luca', role: 'Backend Lead & Business', initials: 'PL', photo: '/team/petru-man-luca.jpg' },
+  { name: 'Gruber Alexandra', role: 'Frontend developer & Design Lead', initials: 'GA', photo: '/team/gruber-alexandra.jpg' },
+  { name: 'Nossa Maria', role: 'Frontend developer & Marketing', initials: 'NM', photo: '/team/nossa-maria.jpg' },
+  { name: 'Voina Alexandru', role: 'Business Lead', initials: 'VA', photo: '/team/voina-alexandru.jpg' },
   { name: 'Roșoga Matei', role: 'AI Lead & Backend Developer', initials: 'RM', photo: '/team/rosoga-matei.jpg' },
+  { name: 'Bojan Maia', role: ' Social Media Manager & Marketing', initials: 'BM', photo: '/team/bojan-maia.jpg' },
+  { name: 'Petru-Man Luca', role: 'Backend Lead & Business', initials: 'PL', photo: '/team/petru-man-luca.jpg' },
 ]
 
 const MENTORS = [
