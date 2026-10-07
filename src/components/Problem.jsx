@@ -69,7 +69,7 @@ export default function Problem() {
             <span>82%</span>
           </div>
           <div className="donut-legend">
-            <span><i className="dot dot--fill" /> Nu se simt pregătiți</span>
+            <span><i className="dot dot--fill" /> Nu știu să acorde primul ajutor</span>
             <span><i className="dot dot--track" /> Au cunoștințele necesare</span>
           </div>
         </div>
